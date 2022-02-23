@@ -15,3 +15,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.rating span{
+  margin: 0.1rem;
+}
+
+h3{
+  padding: 1rem 0;
+}
