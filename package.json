@@ -1,6 +1,24 @@
 {
   "dependencies": {
+    "express": "^4.17.3",
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.3.0"
-  }
+  },
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "MERN E-commerce",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaranBhut44/MERN_Ecommerce.git"
+  },
+  "author": "Karan Bhut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaranBhut44/MERN_Ecommerce/issues"
+  },
+  "homepage": "https://github.com/KaranBhut44/MERN_Ecommerce#readme"
 }
