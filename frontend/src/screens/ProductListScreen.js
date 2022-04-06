@@ -22,7 +22,7 @@ const ProductListScreen = ({ history, match }) => {
     success: successDelete,
   } = productDelete
 
-  const productCreate = useSelector((state) => state.productDelete)
+  const productCreate = useSelector((state) => state.productCreate)
   const {
     loading: loadingCreate,
     error: errorCreate,
