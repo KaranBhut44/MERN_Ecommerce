@@ -128,7 +128,22 @@ const ProductScreen = ({ history, match }) => {
                       </Row>
                     </ListGroup.Item>
                   )}
-
+                  {product.countInStock >= 2 && product.countInStock <= 5 && (
+                    <ListGroup.Item>
+                      <Row>
+                        <Col>
+                          Hurry! only {product.countInStock} products left
+                        </Col>
+                      </Row>
+                    </ListGroup.Item>
+                  )}
+                  {product.countInStock === 1 && (
+                    <ListGroup.Item>
+                      <Row>
+                        <Col id='Status'>Hurry! only 1 product left</Col>
+                      </Row>
+                    </ListGroup.Item>
+                  )}
                   <ListGroup.Item>
                     <Button
                       onClick={addToCardHandler}
